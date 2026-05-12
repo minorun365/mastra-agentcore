@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+dist/
+*.log
+
+# AgentCore CLI internals
+.cli/
+
+# Local environment / secrets
+.env
+.env.local
+.env.*.local
+
+# CDK
+cdk.out/
+.cdk.staging/
